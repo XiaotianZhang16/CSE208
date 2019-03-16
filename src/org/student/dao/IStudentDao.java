@@ -10,7 +10,7 @@ public interface IStudentDao {
 	
 		public boolean updateStudentBySno(int sno, Student student);
 					
-		//根据学号删除学生:根据sno找到待修改的人,把这个人修改成student
+		//根据学号删除学生:根据sno找到待修改的人,把这个人修改成stu
 		public boolean deleteStudentBySno(int sno);
 	
 		//查询全部学生
